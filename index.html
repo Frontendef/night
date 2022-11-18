@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> -->
+
+
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <title>iREKLAMA</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <div class="header__body">
+
+                    <span href="" class="header__logo">
+                        <img src="img/main/min__logo.jpg" alt="logo">
+                    </span> 
+
+                    <div class="header__burger">
+                           <span></span>
+                    </div>
+
+
+
+
+                    <div class="flex__header">
+
+                        
+                        <div class="header__gadjet">
+                            <!-- <a class="header__social" href="">
+                                  <img class="header__img" src="img/header/telephon__img.png" alt="">   
+                            </a> -->
+                            <div class="header__tele">
+                                <a class="link__tel" href="tel:+375297578338" >+375297578338</a>
+                           </div>   
+                            <div class="header__tele">
+                                 <a class="link__tel" href="" >yurcash@mail.ru
+                                 </a>
+                            </div>
+
+                           
+                      </div>
+
+
+
+                        <div class="main-block__button button__main">
+                            <button type="submit" class="buton"  id="open_pop_up">Рассчитать вывеску</button>
+                         </div>
+                    </div>
+                 
+                
+                  
+                </div>
+            </div>
+        </header>
+
+        <main class="page" id="page">
+            <div class="page__main-block main-block">
+                <div class="main-block__container _container">
+                    <div class="main-block__body">
+                        <div class="main-block__flex">
+                            <div class="main-block__offer">
+
+                                
+                               
+                  
+                               
+                                <div class="main-block__cart">
+                                        <h1 class="main-block__title">Пусть тебя увидят! </h1>
+                                        <h2 class="main-block__title ">Наружная реклама, которая работает!</h2>
+
+                                        <div class="main-block__promo">
+                                            <div class="promo__container">
+                                               <div class="promo__box">
+                                                  <h3 class="promo__title">Специальное предложение</h3>
+                                                  <h4 class="promo__subtitle">Дизайн проект рекламной вывески в подарок</h4>
+                                                  
+
+                                             
+                                               </div>
+                          
+                                               <!-- <h4 class="promo__subtitle">Оставьте заявку и специалист свяжется с Вами в течение 15 минут!</h4> -->
+                                                
+                          
+                                               <input class="input__box" type="text" name="name" placeholder="Имя" autocomplete="off" pattern="^[а-яА-Я]*$" required title="Имя может содержать только кириллические символы" minlength="2" maxlength="30"/>							
+                                               <input class="input__box" type="text" name="phone" placeholder="Телефон" autocomplete="off" required pattern="^(\+375|80)(29|25|44|33)(\d{3})(\d{2})(\d{2})$"
+                                               title="Формат телефона должен быть +375(29)-(33)-(44)-(25) 0000000" />	
+                                               
+                                               <input type="file" name="file">
+                                                                                     
+                                               <button  type="submit" class="btn">Получить бесплатный дизайн проект</button>
+                                       
+                          
+                                               <form class="telegram-form">
+                                               
+                                             </form>
+                                            </div>
+                                         </div>
+                            
+
+                                        <!-- <div class="main-block__button">
+                                               <div class="main-block__buttonred">
+                                                   <a href="#counter">
+                                                       <button type="submit" class="buttonred">Получить бесплатный дизайн проект</button>
+                                                   </a>
+                                               </div>
+                                        </div> -->
+                                </div>                              
+                            </div>
+
+                            <div class="main-block__foto">
+                                <div class="main-block__image">
+                                    <img class="aline__image" src="img/main/IREKLAMA__main__logo.jpg" alt="">
+                                 </div>
+                            </div>
+                        </div>	 
+
+                      
+                    </div>
+                </div>
+
+
+
+                <!-- <div class="img__wave">
+                    <img class="wave" src="img/main/top_wave 2.jpg" alt="">
+                </div> -->
+
+                <div class="pop_up" id="pop_up">
+                    <div class="pop_up_container">
+                        <div class="pop_up_body" id="pop_up_body">
+        
+                            <form class="telegram-form">
+
+                                <input class="input__box" type="text" name="name" placeholder="Имя" autocomplete="off" pattern="^[а-яА-Я]*$" required title="Имя может содержать только кириллические символы" minlength="2" maxlength="30"/>
+                                                    
+                                <input class="input__box" type="text" name="phone" placeholder="Телефон" autocomplete="off" required pattern="^(\+375|80)(29|25|44|33)(\d{3})(\d{2})(\d{2})$"
+                                title="Формат телефона должен быть +375(29)-(33)-(44)-(25) 0000000" />
+                                <textarea  name="message" id="" cols="30" rows="7" placeholder="Ваше сообщение"></textarea>
+
+                                <div class="oferta">
+                                    <span class="oferta__text">Согласен(на) на обработку персональных данных</span> 
+                                </div>
+                                                                        
+                        
+                                    <button  type="submit" class="btn">Получить консультацию</button>
+                                </form>
+                            
+                            <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-block__image _ibg">
+                    <img src="img/main/" alt="cover">
+                </div>
+            </div>
+
+
+            <section class="slid" >
+                <div class="title__slide">
+                    <h3 class="subtitle__slide">Клиенты нашей компании</h3>
+                </div>
+                <div class="slider">
+                    <div class="slider__item">
+                        <img src="img/slider__logo/1.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider__logo/2.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider__logo/3.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider__logo/4.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider__logo/5.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider__logo/6.png" alt="#">
+                    </div>
+                    <!-- <div class="slider__item">
+                        <img src="img/slider__logo/7.png" alt="#">
+                    </div> -->
+                    <!-- <div class="slider__item">
+                        <img src="img/slider__logo/8.png" alt="#">
+                    </div> -->
+                    <div class="slider__item">
+                        <img src="img/slider__logo/9.png" alt="#">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider__logo/10.png" alt="#">
+                    </div>
+                    <!-- <div class="slider__item">
+                        <img src="img/slider__logo/11.png" alt="#">
+                    </div> -->
+                    <!-- <div class="slider__item">
+                        <img src="img/slider__logo/5.png" alt="#">
+                    </div> -->
+                
+                </div>
+            </section>
+
+            <!-- <section class="page__modal" >
+                <div class="page__modal__container _container">
+                   <div class="modal__title">
+                      <h3 class="main-block__title__modal">5 причин почему нас рекомендуют</h3>
+                   </div>
+             <div class="modal__body">
+                   <div class="modal__item">
+                      <div class="imlog">
+                         <img class="treeimg"  src="img/tilda/home.png" alt="home">
+                      </div>
+                      <div class="modal__subtitle">Цены ниже
+                         на 10-20%</div>
+                             <div class="modal__text">
+                               Собственное производство и прямая
+             продажа наружной рекламы позволяет
+             нам существенно сократить стоимость
+             готовой продукции.
+                            </div>
+                   </div>
+             
+                   <div class="modal__item">
+                    
+                      <div class="modal__subtitle">Оформляем паспорт
+                       </div>
+                             <div class="modal__text">
+                               При размещении вывески на фасадах
+             зданий необходимо получить
+             согласование комитета архитектуры и
+             градостроительства Мингорисполкома.
+                            </div>
+                   </div>
+             
+                   <div class="modal__item">
+                    
+                      <div class="modal__subtitle">Доставка по
+                         всей РБ</div>
+                             <div class="modal__text">
+                               Мы осуществляем бесплатную доставку
+             по Минскому району. А также
+             осуществляем платную доставку по
+             Беларуси: стоимость зависит
+             от расстояния.
+                            </div>
+                   </div>
+             
+                   <div class="modal__item">
+                     
+                      <div class="modal__subtitle">Короткие сроки
+                         изготовления</div>
+                             <div class="modal__text">
+                               Сроки изготовления наружной рекламы
+                               в нашей компании в среднем - от 5
+                               рабочих дней. Также у нас существует
+                               возможность срочного заказа - 2 дня.
+                            </div>
+                   </div>
+             
+                   <div class="modal__item">
+                     
+                      <div class="modal__subtitle">Официальная гарантия на
+                         нашу наружную рекламу</div>
+                             <div class="modal__text">
+                               2 года
+                            </div>
+                   </div>
+             
+                   
+                </div>
+             
+               
+             </div>
+                
+             
+             </section> -->
+
+        </main>
+
+    </div>
+    <script src="lib/jquery.js"></script>
+		
+		
+		<script src="js/slidder.js"></script>
+		<script src="js/slikkk.js"></script>
+		
+</body>
+</html>
